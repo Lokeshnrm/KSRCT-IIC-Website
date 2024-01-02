@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\logoiic3.png">
+  <!--<meta http-equiv="X-UA-Compatible" content="ie=edge" />-->
+   <title>KSRCT_IIC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">  
+  <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <!--<link rel="stylesheet" href=" css/mobile.css"/>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="./main.js"></script>
+</head >
+<body>
+<header>
+         <div class="container-fluid p-0" id="mainhead" style="position: fixed; z-index: 2;">
+      <nav class="navbar navbar-expand-md">
+         <a class="navbar-brand" href="http://ksrct.ac.in" target="_blank">
+    <img src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\logo.png" class="img-fluid logos">
+ </a>
+ <p class="text-light logot">Institution's Innovation Council<br>
+K. S. Rangasamy College of Technology 
+(Autonomous), Tiruchengode. </p>
+   <a class="navbar-brand" href="http://ksrct.ac.in" target="_blank" >
+    <img src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\sj.png" class="img-fluid logos">
+ </a>
+  <a class="navbar-brand" id="logog" href="https://mic.gov.in/" target="_blank" >
+    <img src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\IIClogos1.png" class="img-fluid logos">
+ </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-align-center text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!--div class="mr-auto"></div-->
+          
+           <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">Initiatives</a>
+                <div class="dropdown-content dc">
+                  <a href="innovation.html">Innovation Cell</a>
+                   <a href="ipr.html">Intellectual Property Rights Cell</a>
+                    <a href="exhibition_and_competition.html">Exhibition & competition Cell</a>
+                     <a href="technology_transfer_and_commercialization">Technology Transfer & Commercialization Cell</a>
+                      <a href="incubation_startup_entrepreneurship_development_cell.html">Incubation, Start-ups & Entrepreneurship Development Cell</a>
+                       <a href="career_guidance_and_corporate_relationship.html">Career Guidance and Corporate Relationship</a>
+                        <a href="socialmedia_and_outreach_cell.html">Social Media & Outreach Cell</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#" class="nav-link">Events</a>
+                <div class="dropdown-content">
+                  <a href="index.html#NEWS">News Hub</a>
+                  <a href="index.html#GALLERY">Photo Gallery</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#ACHIEVEMENTS">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#SUCCESS%20STORIES">Success Stories</a>
+            </li>
+             <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="" class="nav-link">CIS</a>
+                <div class="dropdown-content bc">
+                  <a href="nisp.html">Innovation and Startup Policy</a>
+                   <a href="academic_plan.html">NISP-Academic plan (2020-2021)</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="index.html#ABOUTUS" class="nav-link">About us</a>
+                <div class="dropdown-content bc">
+                  <a href="index.html#STUDENTTEAM">Team Lead</a>
+                   <a href="index.html#ABOUTUS">Contact Us</a>
+                   <a href="our_eminent_speakers.html">Our Eminent Speakers</a>
+                   <a href="our_alumni_entrepreneurs.html">Our Alumni Entrepreneurs </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item trick">
+              <a class="nav-link" href="https://forms.gle/EKVKkfFtWpEqv6NJ6" target="_blank">Join Us</a>
+            </li>
+
+          </ul>
+          <a class="navbar-brand" id="logop" href="https://mic.gov.in/" target="_blank" >
+    <img src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\IIClogos1.png" class="img-fluid logos">
+ </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <style type="text/css">
+   @media only screen and (max-width: 768px) {
+    .signup-btn{
+      display: none;
+    }
+    #logop{
+      display: none;
+    }
+     .icon-bar{
+      display: none;
+    }
+    .logos{
+     width: 35px;
+     height: 35px;
+    }
+    .logot{
+      /*font-size: 5px;
+      width: 50px;*/
+      display: none;
+    }
+    .float{
+      display:none;
+    }
+  }
+     @media only screen and (min-width:789px) {
+      .trick{
+      display:none ;
+    }
+    #logog{
+      display:none;
+    }
+.logos{
+     width: 50px;
+     height: 50px;
+    }
+    .logot
+    {
+      font-size: 15px;
+      width: 350px;
+    }
+
+    }
+  </style>
+      <style type="text/css">
+      .sau{
+       width: 415.74px;
+        height: 345.66px; 
+       padding-top: 55px;
+     }
+       @media only screen and (max-width:990px){
+            .sau{
+              width: 200px;
+        height: 200.66px; 
+        }            
+      }
+    </style>
+    <div class="section starts" style="padding-top: 50px;">
+      <div class="container">
+        <div class="row" style=" padding-top: 55px;">
+           <h3 style="padding-bottom: 10px;"><strong>Innovation Cell</strong></h3>
+          <div class="col-sm-5">
+            <img class="sau pic" src="images\ini.png" alt="img-fluid" align="center">
+          </div>
+          <div class="col-sm-7" style="padding-top: 15px;">
+             <h4 >Vision</h4><br>
+          <p>Research and Innovation team strives to make discoveries, publications, mentoring and training, and in the translation of research into health and economic benefits. Research and Innovation envisions a dynamic, innovative, and diversified environment that will promote and support the research and creative scholarly activities of faculty, staff, and students.</p>
+<br>
+<h4>Mission</h4><br>
+          <p>To collaboratively transform the delivery of health care through implementation and evaluation of researches, and thereby promoting innovative approaches to high quality, safe care, improved patient outcomes at lower costs.
+</p>
+          </div>
+          <style type="text/css">
+            @media only screen and (min-width: 360px)
+            {
+            .idio h4, p{
+              padding-right: 20px;
+              padding-left: 20px;
+              align-content: center;
+            }
+          }
+          </style>
+          <div class="idio" style="padding-top: 20px; padding-bottom: 20px;">
+<h4>Roles and Responsibilties</h4>
+            <p style="justify-content: center;"><ul>
+<li> To organize hackathons, codeathons, idea competition, mini-challenges, etc., with the collaboration of industries.</li>
+<li>To foster and facilitate literary works, artistic works, scientific works, broadcasts, phonograms, scientific discoveries, inventions in varied fields of human endeavour, trademarks, service marks, industrial designs, patents, copyrights, trademarks, service marks and trade secrets.</li>
+<li>To Innovation has plans for conducting workshops.</li>
+<li>To conduct an innovation and entrepreneurship-related activities prescribed by Central MIC in time bound fashion</li>
+<li>To Identify and reward innovations and share success stories</li>
+<li>Innovation cell is MHRD’s initiative established at AICTE with a purpose to systematically foster the culture of Innovation in all Higher Education Institutions (HEIs) across the country</li>
+            </p>
+          </ul>
+            <!------>
+        </div>
+        </div>    
+    </div>
+    <style type="text/css">   
+    .e{
+      width:10rem;
+      padding-bottom: 50px;
+    }              
+      @media only screen and (min-width: 360px){
+     .e{
+      width: 10rem;
+      padding-left: 25px;
+      padding-bottom: 40px;
+     }
+.set{
+  padding-left: 10px;
+}
+.ven{
+  padding-bottom: 25px;
+}
+      }
+    </style>
+     <div class="section">
+  <div>
+        <div class="text-light" id="mainhead" style="text-align: center; padding-top: 10px;">
+          <h3 id="STUDENTTEAM" style="padding-bottom:10px;">Chief Coordinators</h3>
+        </div>
+      </div>
+    </div>
+<!--div class="container" style="padding-top: 50px;">
+  <div class="row">
+    <div class="col-md-6">
+  <div class="card mb-3 co shadow-lg p-3 mb-5 rounded copy">
+    <img class="card-img-top" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image"  style="width:120px; height: 120px;">
+    <div class="card-body">
+      <h4 class="card-title" align="center">Mr.S.Hari Prasanth</h4>
+      <p class="card-text">
+        Position: Chief coordinator<br>
+        Department: Mechatronics Engineering</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:6381420469"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:hariprasadh@ksrct.ac.in?cc=iicactivities@ksrct.ac.in">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+         <!-a href="https://wa.me/919952430751/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp fa-2x"style="padding: 10px;"></i></a-->
+    </div>
+  </div>
+</div>
+<!--div class="col-md-6">
+  <div class="card co shadow-lg p-3 mb-5 rounded copy">
+    <img class="card-img-top" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image"  style="width:120px; height: 120px;">
+    <div class="card-body">
+      <h4 class="card-title" align="center">Mr.E.Chandrakumar</h4>
+      <p class="card-text">
+        Position: Chief coordinator<br>
+        Department: Electrical & Electronics Engineering</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:9445959964"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:chandrakumar@ksrct.ac.in?cc=iicactivities@ksrct.ac.in">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+</div>
+</div>
+</div-->
+<!-------->
+<div class="container" style="padding-top: 25px;">
+  <div class="row">
+    <div class="col-lg-6">
+      <!--div class="row" style="padding-top: 15px; padding-bottom: 20px;"-->
+  <div class="text-center"style="padding-top: 15px; padding-bottom: 20px;">
+   <h5 style="padding-left:50px;"><strong>FACULTY CO-ORDINATORS</strong></h5>
+  </div>
+<!--/div-->
+       <div class="row">
+    <div class="col-sm-6">
+       <div class="card co shadow-lg p-3 mb-5 rounded copy" style="width: 17rem;">
+    <img class="card-img-top" src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\hariprasanth.png" alt="Card image" style="width:120px; height: 120px;">
+    <div class="card-body" style="font-size: 13px;">
+      <h4 class="card-title" align="center"style="font-size: 20px;">Mr.S.Hari Prasanth</h4>
+      <p class="card-text text-center" style="font-size: 15px;">
+        Chief coordinator<br>
+        Mechatronics Engineering</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:6381420469"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:hariprasadh@ksrct.ac.in?cc=iicactivities@ksrct.ac.in"> <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+         <a href="/cdn-cgi/l/email-protection#b0ddc5c2c5d7d5c3d1ded1f0dbc3c2d3c49ed1d39ed9de8fd3d38dd9d9d3d1d3c4d9c6d9c4d9d5c3f0dbc3c2d3c49ed1d39ed9de">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card co shadow-lg p-3 mb-5 rounded copy"style="width: 17rem;">
+    <img class="card-img-top" src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\chandrakumar.png" alt="Card image" style="width:120px; height: 120px;">
+    <div class="card-body" style="font-size: 13px;">
+      <h4 class="card-title" align="center"style="font-size: 20px;">Mr.E.Chandrakumar</h4>
+      <p class="card-text text-center" style="font-size: 15px;">
+        Chief coordinator<br>
+        Electrical & Electronics Engineering</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:944595996"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:chandrakumar@ksrct.ac.in?cc=iicactivities@ksrct.ac.in"> <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+         <a href="/cdn-cgi/l/email-protection#24455d5d45545445404557454a644f575647500a45470a4d4a1b4747194d4d474547504d524d504d4157644f575647500a45470a4d4a">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+    </div>
+  </div>
+    </div>
+    <div class="col-lg-6">
+      <!--div class="row" style="padding-top: 15px;padding-bottom: 20px;"-->
+  <div class="text-center"style="padding-top: 15px; padding-bottom: 20px;">
+    <h5><strong>STUDENTS CO-ORDINATORS</strong></h5>
+  </div>
+<!--/div-->
+      <div class="row">
+    <div class="col-sm-6">
+       <div class="card co shadow-lg p-3 mb-5 rounded copy"style="width: 17rem;">
+    <img class="card-img-top" src="C:\Users\user.AIDS-LAB-I-01\Pictures\iic photos\prathiksha.png" alt="Card image"  style="width:120px; height: 120px;">
+    <div class="card-body" style="font-size: 13px;">
+      <h4 class="card-title" align="center" style="font-size: 20px;">Ms.V.S.Prathiksha</h4>
+      <p class="card-text text-center" style="font-size: 15px;">
+        Chief coordinator<br>
+        Computer Science & Business System</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:9842436367"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto=:prathiksha4915@gmail.com?cc=iicactivities@ksrct.ac.in"> <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"><i></a>
+         <a href="/cdn-cgi/l/email-protection#e5b68088878489848cd7d5d5d5a58288848c89cb868a88da8686d88c8c868486918c938c918c8096a58e96978691cb8486cb8c8b">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+    </div>
+    <!--div class="col-sm-6">
+      <div class="card co shadow-lg p-3 mb-5 rounded copy"style="width: 17rem;">
+    <img class="card-img-top" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image" style="width:120px; height: 120px;">
+    <div class="card-body">
+      <h4 class="card-title" align="center"style="font-size: 20px;">A.Thilagavathi</h4>
+      <p class="card-text text-center" style="font-size: 15px;">
+        Deputy coordinator<br>
+        Information Technology</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:6374774125"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="/cdn-cgi/l/email-protection#90e4f8f9fcf1f7f1e4f8f9fcf1f7f1a7a0a2d0f7fdf1f9fcbef3fffdaff3f3adf9f9f3f1f3e4f9e6f9e4f9f5e3d0fbe3e2f3e4bef1f3bef9fe">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<!------->
+<style type="text/css">
+  <style>
+.ti{
+ position: center;
+  color: black;
+}
+.ti:hover{
+    -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(-30deg);
+}
+.co{
+      transition: .5s;
+    }
+    .co:hover{
+      transform: scale(1.1);
+      z-index: 1;
+      background-color: #072a53;
+      color: #fff;
+    }
+</style>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+      <footer class="container-fluid" style="padding: 60px;">
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-xl-4 col-md-5">
+          <h4 class="text-light" id="ABOUTUS">About us</h4>
+          <p class="text-muted">our institution Institution's Innovation Council (IIC) is establishing purposes of systematic fostering and developing and innovating a culture of innovation, Research, Entrepreneurship among the student community and society.</p>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <h4 class="text-light">Chat Us:</h4>
+          <p class="text-muted">Stay Updated with us</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="chat us">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <a href="https://mail.google.com/mail/u/4/#inbox"> 
+                    <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+          <!--p class="text-light" style="padding-top: 20px;">Designed and developed by:
+                <marquee  onmouseover="this.stop()" onmouseout="this.start()"> 
+                1.Deepa Jothi.S 2.Priya Dharshini.S 3.Meiyazhagan.K 4.Sedhuragavan.L 5.Venkatesh.J 6.Vasanth.A 7.Mohana Raj.K 8.Vijayaragavan.G 9.Maheshwaran.A.K 10.Saurav Arvind.P 11.Lokeshkumar.R</p></marquee-->
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us all be connected socially</p>
+          <div class="column text-light" style="padding: 5px; font-size: 25px;">
+            <a href="https://www.facebook.com/iicksrct1994/" target="_blank"><i class="fab fa-facebook-f"style="padding: 5px;" ></i></a>
+             <a href="https://instagram.com/iicksrct1994?igshid=ofqhurl2g7mo"target="_blank"><i class="fab fa-instagram"style="padding: 5px;"></i></a>
+             <a href=" https://twitter.com/iicksrct1994?s=08"target="_blank"><i class="fab fa-twitter"style="padding: 5px;"></i></a>
+            <a href="https://www.youtube.com/channel/UCuX4zc8bziSV3f2Y_O7ISPQ"target="_blank"> <i class="fab fa-youtube"style="padding: 5px;"></i></a>
+            <a href="https://www.linkedin.com/in/mhrd-iic-ksrct-8962161b5"target="_blank"> <i class="fab fa-linkedin"style="padding: 5px;"></i></a>
+            <a href="https://t.me/iicksrct1994"target="_blank"> <i class="fab fa-telegram-plane" style="padding: 5px;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="row text-light">
+  <div class="col-md-4">
+<ul>
+  <strong>WEB DESIGN</strong>
+  <li><a href="https://www.linkedin.com/in/deepa-jothi-980869190/"><span style="color: white">Deepa Jothi S</span></a></li>
+  <li><a href="https://www.linkedin.com/in/thanga-lakshmi-j-72a2341b3/"><span style="color: white">Thangalakshmi J</span></a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul>
+   <strong>WEB DEVELOPMENT</strong>
+  <li><a href="https://www.linkedin.com/in/meiyazhagan/"><span style="color: white">Meiyazhagan K</span></a></li>
+  <li><a href="https://www.linkedin.com/in/saurav-arvind-6323821b1/"><span style="color: white">Saurav Arvind P</span></a></li>
+  <li><a href="https://www.linkedin.com/in/mahesh-waran-1072601b2/"><span style="color: white">Maheshwaran A K</span></a></li>
+  <li><a href="https://www.linkedin.com/in/lokesh-kumar-8964291bb/"><span style="color: white">Lokeshkumar R</span>;</a></li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul>
+  <strong> CONTENT WRITING</strong>
+  <li><a href="https://www.linkedin.com/in/vasanth-ananth-4506091a4/"><span style="color: white">Vasanth A</span></a></li>
+  <li><a href="https://www.linkedin.com/in/priya-dharshini-saravanan-a02b57198/"><span style="color: white">Priya Dharshini S</span></a></li>
+  <li><a href="https://www.linkedin.com/in/kalai-kalangiyam-b532601bb/"><span style="color: white">Kalai kalangiyam G K</span></a></li>
+</ul>
+</div>
+</div>
+<div class="text-center" style="color: white;">
+  <hr style="color:gray;background-color:white;">
+  <p>2021 © All Rights Reserved </p>
+</div>
+</footer>
+    <style>
+#myBtn {
+  display: none;
+  position: fixed;
+   width: 50px;
+      height: 50px;
+  bottom: 40px;
+  right: 50px;
+  z-index: 99;
+  font-size: 22px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  outline: none;
+  background-color:black;
+  color:#FF512F;
+  cursor: pointer;
+  
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  color: white;
+}
+</style>
+</head>
+ 
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    </body>
+</html>
